@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.event-list-items{
+    list-style-type: none;
+    width:90%;
+    margin-right:20px;
+    margin-bottom:30px;
+}
+.event-btn{
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    border: 0;
+}
+.event-name{
+    font-family: 'Roboto';
+    font-size:24px;
+    color:#f8fafc;
+    font-weight:500;
+}
+.event-img{
+    width:100%;
+    max-width: 460px;
+    border-radius: 8px;
+    border:2px solid transparent;
+}
+.active{
+    border-radius: 10px;
+    border:2px solid #2dd4bf;
+}
+.event-location{
+    font-family: 'Roboto';
+    font-size:18px;
+    color:#f8fafc;
+}
+

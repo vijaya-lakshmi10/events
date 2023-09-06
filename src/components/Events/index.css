@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.event-container{
+    display: flex;
+    align-items: flex-start;
+    background-color: #3a4b63;
+}
+.sub-container{
+    height:100vh;
+    overflow-y: auto;
+    width:60%;
+    padding:20px;
+}
+.heading{
+    font-family: 'Roboto';
+    font-size:32px;
+    color: #f8fafc;
+    margin-bottom: 40px;
+}
+.events-list{
+    display: flex;
+    flex-wrap: wrap;
+}
